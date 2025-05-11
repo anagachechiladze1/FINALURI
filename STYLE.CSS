@@ -615,6 +615,21 @@ header {
     .btn {
       padding: 10px 30px;
     }
+        
+        .footer-container {
+            flex-direction: column;
+        }
+        
+        .footer-middle,
+        .footer-right {
+            width: 100%;
+        }
+        
+        .footer-middle {
+            margin: 30px 0;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
   }
 
  
